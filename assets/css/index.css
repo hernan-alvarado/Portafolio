@@ -1,0 +1,12 @@
+body {
+    background-image: url(/assets/img/shubham-dhage-NsPqV-WsZYY-unsplash.jpg);
+    background-size: contain 60%;
+}
+
+#titulo {
+    color:antiquewhite;
+}
+
+footer {
+   top: 70%
+}
