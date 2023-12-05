@@ -4,77 +4,169 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/index.css" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
+    <link rel="shortcut icon" href="/assets/img/icons/pngwing.com.png">
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <title>Portafolio Hernán Alvarado</title>
+    <title>Portafolio H.</title>
 </head>
-<main class="mt-5">
-    <div class="container text-center mt-2 " id="titulo">
-        <div class="row align-items-center mt-4">
+
+<main>
+    <div class="container text-center" id="titulo">
+        <div class="row align-items-center">
             <div class="col">
-                <h1>{{Bienvenidas y bienvenidos a mi portafolio}}</h1>
+                <h1></h1>
             </div>
         </div>
-        <div class="row align-items-center mt-4">
+        <div class="row align-items-center mt-5">
             <div class="col">
                 <div id="tabs">
                     <ul>
-                        <li><a href="#tabs-1">Sobre mi</a></li>
+                        <li><a href="#tabs-1">Sobre mí</a></li>
                         <li><a href="#tabs-2">Stack</a></li>
                         <li><a href="#tabs-3">Proyectos destacados</a></li>
                         <li><a href="#tabs-4">Certificaciones</a></li>
-                        <li><a href="#tabs-4">CV</a></li>
-                        <li><a href="#tabs-5">Contacto</a></li>
+                        <li><a href="#tabs-5">Currículum Vitae</a></li>
                     </ul>
-                    <div id="tabs-1">
+                    <div class="container text-center" id="tabs-1">
                         <div>
                             <h5>
-                                Hola. Mi nombre es Hernán Alvarado. Desarrollador Web y
-                                periodista con conocimientos en JavaScript, CSS y HTML 5. He
-                                trabajado en aplicaciones y páginas web en entorno de
-                                ejecución Node.js principalmente con Express.js
+                                <!-- Mejorar descripción -->
+                                <p><br>
+                                <b>{{Hola, bienvenidas y bienvenidos a mi portafolio}}</b></p>
+                                    <p>Mi nombre es Hernán Alvarado y soy desarrollador Web y
+                                    periodista con conocimientos en tecnologías como <b>JavaScript, CSS y HTML 5.</b></p>
+                                <p>Cuento con experiencia en la creación de contenidos para sitios web, utilizando tecnologías como Canva.</p>
+                                <p>Tengo especial interés en el <b>uso de metodologías ágiles.</b></p>
+                                <p>Actualmente me dedico a la producción de páginas web y aplicaciones.</p>
                             </h5>
                         </div>
                     </div>
-                    <div id="tabs-2">
-                        <div>
+                    <div class="container text-center" id="tabs-2">
+                        <div class="row">
+                            <div class="col" id="graficoUno"></div>
+                            <div class="col" id="graficoDos"></div>
                         </div>
+                    </div>
+                    <div class="container text-center" id="tabs-3">
+                        <div class="row">
+                            <div class="col">
+                                <a title="proyectopresupuesto"
+                                    href="https://hernan-alvarado.github.io/Practica-de-Consolidacion-M03--Presupuesto-APP/"
+                                    target="_blank"><img src="/assets/img/proyectopresupuesto.gif" height="150px"
+                                        width="150px" /></a>
+                                <p>APP de cálculo de presupuesto mensual</p>
+                                <p><a href="https://hernan-alvarado.github.io/Practica-de-Consolidacion-M03--Presupuesto-APP/"
+                                        target="_blank">Ver proyecto</a></p>
+                                <p><a href="https://github.com/hernan-alvarado/Practica-de-Consolidacion-M03--Presupuesto-APP"
+                                        target="_blank">Repositorio</a></p>
+                            </div>
+                            <div class="col">
+                                <a title="proyectostarwars"
+                                    href="https://hernan-alvarado.github.io/Practica-de-Consolidacion-M04-StarWarsAPI"
+                                    target="_blank"><img src="/assets/img/proyectostarwars.gif" height="150px"
+                                        width="150px" /></a>
+                                <p>Aplicación para consumo de API (personajes de Star Wars)</p>
+                                <p><a href="https://hernan-alvarado.github.io/Practica-de-Consolidacion-M04-StarWarsAPI/"
+                                        target="_blank">Ver proyecto</a></p>
+                                <p><a href="https://github.com/hernan-alvarado/Practica-de-Consolidacion-M04-StarWarsAPI"
+                                        target="_blank">Repositorio</a></p>
+                            </div>
+                            <div class="col">
+                                <p>Aplicación para consumo de API (personajes de Digimon)</p>
+                                <p><a href="https://hernan-alvarado.github.io/Practica-de-Consolidacion-M02-API-Digimon/"
+                                        target="_blank">Ver proyecto</a></p>
+                                <p><a href="https://github.com/hernan-alvarado/Practica-de-Consolidacion-M02-API-Digimon"
+                                        target="_blank">Repositorio</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="container text-center" id="tabs-4">
+                        <h5>
+                            <p><b>Bootcamp de Desarrollo de Aplicaciones Full Stack JavaScript Trainee.</b></p>
+                            <p>Duración: 472 horas.</p>
+                            <p>Fecha de inicio: 03-2023. Fecha de término: 09-2023.</p>
+                            <p>Imparten: Edutecno, Talento Digital para Chile y Corfo.</p>
+                            <p class="mt-2"><a
+                                    href="https://drive.google.com/file/d/1wKNDQ9qYlYlyd-y-1W1o6ucXbl0Jghps/view?usp=drive_link"
+                                    target="_blank">Ver diploma</a></p>
+                        </h5>
+                        <h5>
+                            <p><b>Curso de Design Thinking.</b></p>
+                            <p>Duración: 25 horas.</p>
+                            <p>Fecha de término: 12-2023.</p>
+                            <p>Imparten: Fundación Telefónica Movistar, Sence e Universidad de Playa Ancha.
+                            </p>
+                            <p class="mt-2"><a
+                                    href="https://drive.google.com/file/d/17Csd_VUuyyixNrqv52qCiu6dLdx14hDw/view?usp=drive_link"
+                                    target="_blank">
+                                    Ver diploma</a></p>
+                        </h5>
+                        <h5>
+                            <p><b>Curso de Gestión de Proyectos con Metodologías Ágiles y Enfoques Lean.</b></p>
+                            <p>Duración: 40 horas.</p>
+                            <p>Fecha de término: 11-2023.</p>
+                            <p>Imparten: Fundación Telefónica Movistar, Sence e Universidad de Playa Ancha.
+                            </p>
+                            <p class="mt-2"><a
+                                    href="https://drive.google.com/file/d/1krH5iSs4L2lCTfa2oTr2rDNLihTCSu-L/view?usp=drive_link"
+                                    target="_blank">Ver diploma</a></p>
+                        </h5>
+                        <h5>
+                            <!-- Agregar descripción del curso y adjuntar diploma-->
+                            <p><b>Curso de Content Manager.</b></p>
+                            <p>Duración: 60 horas.</p>
+                            <p>Fecha de término: 11-2023.</p>
+                            <p>Imparten: Adalid Chile, Talento Digital para Chile y Corfo.
+                            </p>
+                            <p class="mt-2"><a
+                                href="https://www.credly.com/badges/aeec398a-1004-43e2-a33e-5e4bccd65e52"
+                                target="_blank">Ver diploma</a></p>
+                        </h5>
+                        <h5>
+                            <p><b>Título de Periodista y Licenciado en Comunicación Social.</b></p>
+                            <p>Año de titulación: 2015</p>
+                            <p>Universidad Adolfo Ibáñez.</p>
+                        </h5>
+                    </div>
+                    <div class="container text-center" id="tabs-5">
+                        <embed src="/assets/docs/CV Desarrollador Web.pdf" type="application/pdf" height="600px"
+                            width="850px" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </main>
 
-<footer class="mt-2">
-    <div class="row align-items-center mb-5">
-        <div class="col mx-3">
-            <img src="./assets/img/icons/js.png" height="90px" width="80px" />
-        </div>
-        <div class="col">
-            <img src="./assets/img/icons/css.png" height="120px" width="120px" />
-        </div>
-        <div class="col">
-            <img src="./assets/img/icons/html.png" height="110px" width="100px" />
-        </div>
-        <div class="col">
-            <img src="./assets/img/icons/bootstrap.png" height="120px" width="120px" />
-        </div>
-        <div class="col mx-3">
-            <img src="./assets/img/icons/nodejs.png" height="120px" width="120px" />
-        </div>
-        <div class="col">
-            <img src="./assets/img/icons/jquery.png" height="120px" width="120px" />
-        </div>
-        <div class="col mx-3">
-            <img src="./assets/img/icons/postgresql.png" height="110px" width="180px" />
-        </div>
-    </div>
-</footer>
+<section id="redesSociales">
+    <div class="row text-center">
+    <div class="col">
+    <h5>Contacto</h5>
+    <b>Correo:</b> hernanalvarado.it@gmail.com<br>
+    <b>Celular:</b> +569 93510622
+    <p>  
+                <h5>Enlaces RRSS</h5>
+                <a title="Linkedin" href="https://www.linkedin.com/in/hernan-alvarado/" target="_blank"><img
+                        src="/assets/img/icons/linkedin.png" alt="LogoLinkedin" /></a>
+                <a title="GitHub" href="https://github.com/hernan-alvarado" target="_blank"><img
+                        src="/assets/img/icons/github.png" target="_blank" alt="LogoGitHub" /></a>
+                <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=56993510622" target="_blank"><img
+                        src="/assets/img/icons/whatsapp_icon.png" target="_blank" alt="LogoWhatsApp" /></a>
+                <a title="Instagram" href="https://www.instagram.com/hernanalvarados/" target="_blank"><img
+                        src="/assets/img/icons/instagram.png" target="_blank" alt="LogoInstagram" height="55px"
+                        width="55px" /></a>
+                    </p>
+            </div>
+            </div>
+</section>
+
 
 <script src="/assets/js/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
