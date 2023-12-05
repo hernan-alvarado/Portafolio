@@ -20,10 +20,10 @@ window.onload = function () {
 				legendText: "{indexLabel}",
 				toolTipContent: "<b>{indexLabel}:</b> {y}%",
 				dataPoints: [
-          { y: 40, label: " ", indexLabel: "Git & GitHub" },
-          { y: 40, label: " ", indexLabel: "SQL/Postgres" },
+					{ y: 40, label: " ", indexLabel: "Git & GitHub" },
+					{ y: 40, label: " ", indexLabel: "SQL/Postgres" },
 					{ y: 45, label: " ", indexLabel: "Java Script" },
-          { y: 60, label: " ", indexLabel: "HTML" },
+					{ y: 60, label: " ", indexLabel: "HTML" },
 					{ y: 60, label: " ", indexLabel: "CSS" },
 				],
 			},
@@ -47,19 +47,19 @@ window.onload = function () {
 		},
 		data: [
 			{
-        type: "bar",
+				type: "bar",
 				indexLabelFontSize: 15,
-        indexLabelFontSize: 15,
+				indexLabelFontSize: 15,
 				legendText: "{indexLabel}",
 				toolTipContent: "<b>{indexLabel}:</b> {y}%",
-				dataPoints: [			
-          { y: 35, label: " ", indexLabel: "ExpressJS" },
+				dataPoints: [
+					{ y: 35, label: " ", indexLabel: "ExpressJS" },
 					{ y: 40, label: " ", indexLabel: "NodeJS" },
 					{ y: 40, label: " ", indexLabel: "HandlebarsJS" },
 					{ y: 40, label: " ", indexLabel: "jQuery UI" },
 					{ y: 50, label: " ", indexLabel: "jQuery" },
 					{ y: 50, label: " ", indexLabel: "CanvasJS" },
-          { y: 70, label: " ", indexLabel: "Bootstrap" }
+					{ y: 70, label: " ", indexLabel: "Bootstrap" },
 				],
 			},
 		],
